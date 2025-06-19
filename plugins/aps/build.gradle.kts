@@ -24,16 +24,16 @@ dependencies {
     testImplementation(project(":pump:virtual"))
     testImplementation(project(":shared:tests"))
 
-    api(libs.androidx.appcompat)
-    api(libs.androidx.swiperefreshlayout)
-    api(libs.androidx.gridlayout)
+    api("androidx.appcompat:appcompat:1.6.1")
+    api("androidx.swiperefreshlayout:swiperefreslayout:1.1.0")
+    api("androidx.gridlayout:gridlayot:1.1.0")
     api(kotlin("reflect"))
 
     // APS (it should be androidTestImplementation but it doesn't work)
-    api(libs.org.mozilla.rhino)
+    api("org.mozilla.rhino:1.7.13")
 
     //Logger
-    api(libs.org.slf4j.api)
+    api("org.slf4j:slf4j-api:2.0.9")
 
-    ksp(libs.com.google.dagger.android.processor)
+    ksp("com.google.dagger.dagger-compiler:2.56.1")
 }
