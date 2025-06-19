@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    api(libs.androidx.core)
+    api("androidx.core:core-ktx:1.12.0")
 }
