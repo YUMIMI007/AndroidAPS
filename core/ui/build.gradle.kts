@@ -18,10 +18,10 @@ android {
     }
 }
 dependencies {
-    api(libs.androidx.core)
-    api(libs.androidx.appcompat)
-    api(libs.androidx.preference)
-    api(libs.androidx.gridlayout)
+    api("androidx.core:core-ktx:1.12.0")
+    api("androidx.appcompat:appcompat:1.1")
+    api("androidx.preference:preference:1.2.1")
+    api("androidx.gridlayout:gridlayout:1.0.0")
 
 
    api("com.google.android.material:material:1.9.0")
