@@ -13,7 +13,7 @@ android {
     namespace = "app.aaps.core.interfaces"
     defaultConfig {
         minSdk = Versions.wearMinSdk  // for wear
-    }
+    
 compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
