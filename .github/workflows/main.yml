@@ -7,7 +7,8 @@ jobs:
   build:
     name: Build with Gradle
     runs-on: ubuntu-latest
-
+env:
+  JAVA_HOME: /opt/hostedtoolcache/Java_Temurin-HOTSPOT_jdk/17.0.*/x64
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -29,3 +30,4 @@ jobs:
         with:
           name: AAPS-APK
           path: app/build/outputs/apk/full/release/*.apk
+
