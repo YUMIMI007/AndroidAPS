@@ -24,8 +24,8 @@ dependencies {
     api(libs.androidx.gridlayout)
 
 
-    api(libs.com.google.android.material)
+   api("com.google.android.material:material:1.9.0")
+api("com.google.dagger:dagger-android:2.56.1")
+api("com.google.dagger:dagger-android-support:2.56.1")
 
-    api(libs.com.google.dagger.android)
-    api(libs.com.google.dagger.android.support)
 }
