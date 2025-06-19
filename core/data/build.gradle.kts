@@ -7,6 +7,4 @@ java {
     sourceCompatibility = Versions.javaVersion
     targetCompatibility = Versions.javaVersion
 }
-kotlin [
-    jvmToolchain(17)
-}
+
